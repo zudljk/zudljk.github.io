@@ -1,0 +1,64 @@
+---
+---
+
+@import "main";
+
+
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+static {
+    overflow: auto;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+}
+
+dynamic {
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+    left: 20%;
+}
+
+static img {
+    width: 160px;
+}
+
+static ul li img {
+    width: 16px;
+    height: 16px;
+}
+
+dynamic edu > div {
+    margin-bottom: 2em;
+    clear: left;
+}
+
+dynamic edu div > * {
+    border-left: 1px solid blue;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+dynamic edu img {
+    float: left;
+    width: 42px;
+    height: 42px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+dynamic edu div h3 {
+    margin: 0;
+}
+
+dynamic edu > div > h3 + div + div {
+    font-style: italic;
+}

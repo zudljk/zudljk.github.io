@@ -1,0 +1,50 @@
+education:
+  - title: Primary school
+    start: 1982
+    end: 1986
+    icon: globe.png
+  - title: "Secondary School ('Gymnasium')"
+    institution: St. Michaels-Gymnasium der Benediktiner, Metten
+    description: "Exam subjects: Latin · English · Mathematics · History"
+    start: 1986
+    end: 1995
+    icon: flask.png
+  - title: Military service
+    institution: Mechanized Infantry
+    description: Driver
+    start: 1995
+    end: 1996
+    icon: ironcross.png
+  - title: Vocational school
+    description: Management assistant in data processing
+    institution: EDV-Schulen des Landkreises Deggendorf
+    start: 1996
+    end: 1999
+    icon: edv.png
+  - title: Business oriented computer science
+    institution: University of Regensburg
+    start: 1999
+    end: 2004
+    icon: ur.png
+
+internships:
+  - company: Horizont IT GmbH, Munich
+    primary: Network administration and software development
+    start: 1997
+    tasks:
+    - Development of a TSO/ISPF dialog component of a printing software for a major German bank  
+    - Development of a software for precedence plan analysis for a major German bank
+    keywords: 
+    - IBM
+    - RPG
+    - PL1
+  - company: Dr. Colling GmbH, Ebersberg
+    primary: Software development
+    start: 1998
+    tasks:
+      - Development of a software for visualizing measurement data from lab equipment
+
+projects:
+  - department: Department for Banking IT
+    subject: Conception and implementation of a user management interface and a login system using "PsyLock"
+    

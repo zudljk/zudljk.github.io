@@ -1,0 +1,11 @@
+<edu>
+    {% for item in site.data.cv.education %}
+    <div>
+        <img src="../assets/img/{{ item.icon }}"/>
+        <div>{{ item.start }} - {{ item.end }}</div>
+        <h3>{{ item.title }}</h3>
+        <div>{{ item.institution }}</div>
+        <div>{{ item.description }}</div>
+    </div>
+    {% endfor %}
+</edu>
