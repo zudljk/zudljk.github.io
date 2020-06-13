@@ -8,3 +8,7 @@ title: "Oliver Meyer"
 ## Education
 
 {% include edu.html %}
+
+## Professional history
+
+{% include work.html %}
