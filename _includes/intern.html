@@ -1,0 +1,19 @@
+<work>
+    {% for item in site.data.cv.internships %}
+    <div>
+        <div>{{ item.start }}</div>
+        <h3>{{ item.company }}</h3>
+        <div>{{ item.primary }}</div>
+        <ul>
+        {% for task in item.tasks %}
+        <li>{{ task }}</li>
+        {% endfor %}
+        </ul>
+        <ul>
+            {% for keyword in item.keywords %}
+            <li>{{ keyword }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</work>

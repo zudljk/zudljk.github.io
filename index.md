@@ -9,6 +9,6 @@ title: "Oliver Meyer"
 
 {% include edu.html %}
 
-## Professional history
+## Internships
 
-{% include work.html %}
+{% include intern.html %}
