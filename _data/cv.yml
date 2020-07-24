@@ -1,0 +1,155 @@
+education:
+  - title: Primary school
+    start: 1982
+    end: 1986
+  - title: "Secondary School"
+    institution: St. Michaels-Gymnasium der Benediktiner, Metten
+    description: "Exam subjects: Latin · English · Mathematics · History"
+    start: 1986
+    end: 1995
+  - title: Military service
+    institution: Mechanized Infantry
+    description: Driver
+    start: 1995
+    end: 1996
+  - title: "Vocational school: Management assistant in data processing"
+    description: "Internships: Horizont IT GmbH - Dr. Collin GmbH" 
+    institution: EDV-Schulen des Landkreises Deggendorf
+    start: 1996
+    end: 1999
+  - title: Business oriented computer science
+    institution: University of Regensburg
+    start: 1999
+    end: 2004
+
+experience:
+  - position: "Internship: Software Development"
+    company: Horizont IT GmbH, Munich
+    start: 1997
+    tasks:
+    - Development of a TSO/ISPF dialog component of a printing software for a major German bank  
+    - Development of a software for precedence plan analysis for a major German bank
+    keywords: 
+    - IBM OS/390
+    - DB/2
+    - RPG
+    - PL/1
+    - ISPF
+  - position: "Internship: Software Development"
+    company: Dr. Colling GmbH, Ebersberg
+    start: 1998
+    tasks:
+      - Development of a software for visualizing measurement data from lab equipment
+    keywords:
+      - C
+      - C++
+      - Java Applets
+      - HTML
+      - PHP 4
+  - position: "Network administrator (fixed-term)"
+    company: LTS Lohmann GmbH, Andernach
+    start: 2000
+    tasks:
+      - Supporting the administration of a 200 PC company network
+      - Technical support to end users
+    keywords:
+      - Windows NT 4
+      - Hardware configuration
+      - User support
+      - TCP/IP
+      - SMB
+      - Lotus Notes
+  - position: "Study project assigment"
+    company: "University of Regensburg, Department for Banking IT"
+    start: 2002
+    tasks: 
+      - Conception and implementation of a user management interface and a login system using "PsyLock"
+    keywords:
+      - Java EE
+  - position: "Study project assignment"
+    company: "University of Regensburg, Department for Banking IT"
+    start: 2002
+    tasks: 
+      - Implementation of a new rating method for software sustainability 
+    keywords:
+      - Java EE
+  - position: "Student assistant"
+    company: "University of Regensburg, Chair for Operations Research"
+    start: 2003
+    keywords:
+      - Java
+      - C
+      - Swing
+    tasks:
+      - Implementation of a configuration application for a geoinformation system (GIS)
+  - position: "Student assistant"
+    company: "University of Regensburg Business School"
+    start: 2004
+    keywords:
+      - PHP
+      - Linux
+      - Apache
+      - SQL
+      - MySQL
+      - User support
+    tasks:
+      - Maintenance and further development of an on-line university calendar
+      - Maintenance of the network infrastructure
+      - Assistance to tutors in creating exam questions
+  - position: "Junior IT Consultant"
+    company: HighQ-IT for the Financial Industry GmbH, Ottobrunn
+    start: 2005
+    end: 2007
+    keywords:
+      - SQL
+      - Oracle
+      - Software architecture
+      - Requirement management
+      - Tomcat
+    tasks:
+  - position: Software Developer
+    company: Interhyp AG, Munich
+    start: 2007
+    keywords:
+      - Java EE
+      - REST
+      - Tomcat
+      - Apache Velocity
+      - Oracle
+      - Test automation
+  - position: Software Engineer
+    company: FTI Touristik GmbH, Munich
+    start: 2008
+    end: 2017
+    keywords:
+      - Spring
+      - Apache Camel
+      - REST
+      - Tomcat
+      - JSP
+      - IBM iSeries
+      - Groovy
+      - Grails
+      - Clean Code
+  - position: Senior Application Developer
+    company: maihiro Products GmbH, Ismaning
+    keywords:
+      - Spring Boot
+      - SAP Cloud Platform
+      - SAP Sales Cloud
+      - CRM
+      - SAPUI5
+      - Scrum
+      - Kubernetes
+      - CI/CD
+      - Clean Code
+      - Node.JS
+      - Atlassian
+      - REST
+      - OData
+    start: 2017
+    end: present
+
+
+
+    
