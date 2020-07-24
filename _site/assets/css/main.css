@@ -1,21 +1,30 @@
+@charset "UTF-8";
 body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-body { overflow: hidden; width: 100%; height: 100%; }
+static { overflow: hidden; position: fixed; width: 20%; height: 100%; background-color: #525363; color: lightgray; }
 
-static { overflow: auto; position: absolute; width: 20%; height: 100%; }
-
-dynamic { overflow: auto; position: absolute; width: 100%; left: 20%; }
+dynamic { color: #525363; overflow: scroll; position: absolute; width: 100%; left: 20%; }
 
 static img { width: 160px; }
 
 static ul li img { width: 16px; height: 16px; }
 
-dynamic edu > div { margin-bottom: 2em; clear: left; }
+dynamic h3 { font-size: medium; color: #95261d; }
 
-dynamic edu div > * { border-left: 1px solid blue; padding-left: 5px; display: inline-block; }
+dynamic ul { padding-left: 0; }
 
-dynamic edu img { float: left; width: 42px; height: 42px; margin-left: 20px; margin-right: 20px; margin-top: 10px; margin-bottom: 30px; border: none; }
+dynamic ul.keywords { font-size: small; padding-top: 0.5em; margin-bottom: 0.5em; list-style: none; }
 
-dynamic edu div h3 { margin: 0; }
+dynamic .keywords li { color: #95261d; display: inline; }
 
-dynamic edu > div > h3 + div + div { font-style: italic; }
+dynamic .keywords li::after { content: "· "; }
+
+dynamic .keywords li:last-child::after { content: ''; }
+
+dynamic .card { border: none; }
+
+dynamic a { font-size: small; }
+
+dynamic a[aria-expanded="true"] { display: none; }
+
+dynamic div.card { margin-top: 2em; }

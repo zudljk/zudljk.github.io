@@ -24,7 +24,8 @@ education:
 
 experience:
   - position: "Internship: Software Development"
-    company: Horizont IT GmbH, Munich
+    company: Horizont IT GmbH
+    location: Munich
     start: 1997
     tasks:
     - Development of a TSO/ISPF dialog component of a printing software for a major German bank  
@@ -36,7 +37,8 @@ experience:
     - PL/1
     - ISPF
   - position: "Internship: Software Development"
-    company: Dr. Colling GmbH, Ebersberg
+    company: Dr. Colling GmbH
+    location: Ebersberg
     start: 1998
     tasks:
       - Development of a software for visualizing measurement data from lab equipment
@@ -47,7 +49,8 @@ experience:
       - HTML
       - PHP 4
   - position: "Network administrator (fixed-term)"
-    company: LTS Lohmann GmbH, Andernach
+    company: LTS Lohmann GmbH
+    location: Andernach
     start: 2000
     tasks:
       - Supporting the administration of a 200 PC company network
@@ -107,6 +110,8 @@ experience:
       - Requirement management
       - Tomcat
     tasks:
+      - Requirement management for a financial trade risk management application
+      - Creating reports for financial trade statistics
   - position: Software Developer
     company: Interhyp AG, Munich
     start: 2007
@@ -117,6 +122,9 @@ experience:
       - Apache Velocity
       - Oracle
       - Test automation
+    tasks:
+      - Maintenance of an application for evaluating real estate investment requests 
+      - Implementing a strategy for automated testing
   - position: Software Engineer
     company: FTI Touristik GmbH, Munich
     start: 2008
@@ -131,6 +139,12 @@ experience:
       - Groovy
       - Grails
       - Clean Code
+    tasks:
+      - Developing applications for touristic invoicing and reports 
+      - Developing a content distribution system for touristic product descriptions 
+      - Maintaining legacy B2C webshops for car and RV rentals
+      - Implementing REST-based booking interfaces for B2B clients 
+      - Adapting third-party applications to special requirements
   - position: Senior Application Developer
     company: maihiro Products GmbH, Ismaning
     keywords:
@@ -142,14 +156,17 @@ experience:
       - Scrum
       - Kubernetes
       - CI/CD
+      - Jenkins
       - Clean Code
-      - Node.JS
+      - Node.JS      
       - Atlassian
       - REST
       - OData
+      - Test automation
     start: 2017
     end: present
-
-
-
+    tasks:
+      - Developing add-ons for SAP CRM solutions using Spring (Boot) based on SAP Cloud Platform
+      - Setting up and maintaining a CI/CD infrastructure based on Kubernetes, providing a development toolset to the team
+      - Collaborating in permanent improvement of a quality-focused development process
     
