@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+#static { overflow: hidden; background-color: #525363; color: lightgray; height: 100%; max-width: 330px; min-width: 330px; }
+
+#static #contacts { margin-left: 15%; }
+
+#dynamic { color: #525363; background-color: white; margin-left: 340px; }
+
+#static h1 { margin-top: 2rem; font-size: 1.2rem; font-weight: bold; }
+
+#static h2 { font-size: 1rem; font-weight: bold; }
+
+#static ul { list-style: none; font-size: small; padding-left: 0; line-height: 1.5rem; margin-top: 1.5rem; }
+
+#static p { margin-top: 1.5rem; }
+
+#static li i { width: 1.2em; }
+
+#static li a { text-decoration: none; color: lightgrey; }
+
+#dynamic h3 { font-size: medium; color: #95261d; }
+
+#dynamic ul { padding-left: 0; }
+
+#dynamic ul.keywords { font-size: small; padding-top: 0.5em; margin-bottom: 0.5em; list-style: none; }
+
+#dynamic .keywords li { color: #95261d; display: inline; }
+
+#dynamic .keywords li::after { content: "· "; }
+
+#dynamic .keywords li:last-child::after { content: ''; }
+
+#dynamic .card { border: none; margin-top: 1em; padding: 1em; }
+
+#dynamic a { font-size: small; }
+
+#dynamic a[aria-expanded="true"] { display: none; }

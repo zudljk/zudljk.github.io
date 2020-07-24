@@ -1,14 +1,7 @@
 ---
 layout: default
-title: "Oliver Meyer"
+title: "Home"
+order: 1
 ---
 
-# Curriculum Vitae
-
-## Education
-
-{% include edu.html %}
-
-## Internships
-
-{% include intern.html %}
+# Welcome

@@ -1,15 +1,34 @@
-- name: Xing
-  icon: https://cdn.freebiesupply.com/logos/large/2x/xing-icon-logo-png-transparent.png
-  link: https://www.xing.com/profile/Oliver_Meyer30
+- name: Web
+  icon-prefix: fas
+  icon: globe
+  link: https://zudljk.github.io
+  text: zudljk.github.io
+- name: EMail
+  icon-prefix: fas
+  icon: envelope
+  link: mailto:zudljk@email.de?subject=Your%20Website%20at%20github.io
+  text: zudljk@email.de
 - name: LinkedIn
-  icon: https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-png-transparent.png
+  icon: linkedin
   link: https://www.linkedin.com/in/oliver-meyer-8175918a/
+  text: zudljk
+- name: Xing
+  icon: xing
+  link: https://www.xing.com/profile/Oliver_Meyer30
+  text: Oliver_Meyer30
 - name: Github
-  icon: https://cdn.freebiesupply.com/logos/large/2x/github-icon-1-logo-png-transparent.png
+  icon: github
   link: https://github.com/zudljk
+  text: zudljk
 - name: Steam
-  icon: https://cdn.freebiesupply.com/logos/large/2x/steam-1-logo-png-transparent.png
+  icon: steam
   link: https://steamcommunity.com/id/skwerl76
+  text: skwerl76
 - name: YouTube
-  icon: https://cdn.freebiesupply.com/logos/large/2x/youtube-icon-logo-png-transparent.png
+  icon: youtube
   link: https://youtube.com/ronin667
+  text: ronin667
+- name: StackOverflow
+  icon: stack-overflow
+  link: https://stackoverflow.com/users/4737944/ronin667
+  text: ronin667
