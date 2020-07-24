@@ -37,7 +37,7 @@ experience:
     - PL/1
     - ISPF
   - position: "Internship: Software Development"
-    company: Dr. Colling GmbH
+    company: Dr. Collin GmbH
     location: Ebersberg
     start: 1998
     tasks:
@@ -100,7 +100,8 @@ experience:
       - Maintenance of the network infrastructure
       - Assistance to tutors in creating exam questions
   - position: "Junior IT Consultant"
-    company: HighQ-IT for the Financial Industry GmbH, Ottobrunn
+    company: HighQ-IT for the Financial Industry GmbH
+    location: Ottobrunn
     start: 2005
     end: 2007
     keywords:
@@ -113,7 +114,8 @@ experience:
       - Requirement management for a financial trade risk management application
       - Creating reports for financial trade statistics
   - position: Software Developer
-    company: Interhyp AG, Munich
+    company: Interhyp AG
+    location: Munich
     start: 2007
     keywords:
       - Java EE
@@ -126,7 +128,8 @@ experience:
       - Maintenance of an application for evaluating real estate investment requests 
       - Implementing a strategy for automated testing
   - position: Software Engineer
-    company: FTI Touristik GmbH, Munich
+    company: FTI Touristik GmbH
+    location: Munich
     start: 2008
     end: 2017
     keywords:
@@ -146,7 +149,8 @@ experience:
       - Implementing REST-based booking interfaces for B2B clients 
       - Adapting third-party applications to special requirements
   - position: Senior Application Developer
-    company: maihiro Products GmbH, Ismaning
+    company: maihiro Products GmbH
+    location: Ismaning
     keywords:
       - Spring Boot
       - SAP Cloud Platform

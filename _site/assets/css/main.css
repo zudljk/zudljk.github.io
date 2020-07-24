@@ -1,30 +1,38 @@
 @charset "UTF-8";
 body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-static { overflow: hidden; position: fixed; width: 20%; height: 100%; background-color: #525363; color: lightgray; }
+#static { overflow: hidden; background-color: #525363; color: lightgray; height: 100%; max-width: 330px; min-width: 330px; }
 
-dynamic { color: #525363; overflow: scroll; position: absolute; width: 100%; left: 20%; }
+#static #contacts { margin-left: 15%; }
 
-static img { width: 160px; }
+#dynamic { color: #525363; background-color: white; margin-left: 340px; }
 
-static ul li img { width: 16px; height: 16px; }
+#static h1 { margin-top: 2rem; font-size: 1.2rem; font-weight: bold; }
 
-dynamic h3 { font-size: medium; color: #95261d; }
+#static h2 { font-size: 1rem; font-weight: bold; }
 
-dynamic ul { padding-left: 0; }
+#static ul { list-style: none; font-size: small; padding-left: 0; line-height: 1.5rem; margin-top: 1.5rem; }
 
-dynamic ul.keywords { font-size: small; padding-top: 0.5em; margin-bottom: 0.5em; list-style: none; }
+#static p { margin-top: 1.5rem; }
 
-dynamic .keywords li { color: #95261d; display: inline; }
+#static li i { width: 1.2em; }
 
-dynamic .keywords li::after { content: "· "; }
+#static li a { text-decoration: none; color: lightgrey; }
 
-dynamic .keywords li:last-child::after { content: ''; }
+#dynamic h3 { font-size: medium; color: #95261d; }
 
-dynamic .card { border: none; }
+#dynamic ul { padding-left: 0; }
 
-dynamic a { font-size: small; }
+#dynamic ul.keywords { font-size: small; padding-top: 0.5em; margin-bottom: 0.5em; list-style: none; }
 
-dynamic a[aria-expanded="true"] { display: none; }
+#dynamic .keywords li { color: #95261d; display: inline; }
 
-dynamic div.card { margin-top: 2em; }
+#dynamic .keywords li::after { content: "· "; }
+
+#dynamic .keywords li:last-child::after { content: ''; }
+
+#dynamic .card { border: none; margin-top: 1em; padding: 1em; }
+
+#dynamic a { font-size: small; }
+
+#dynamic a[aria-expanded="true"] { display: none; }

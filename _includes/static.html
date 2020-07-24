@@ -1,0 +1,30 @@
+<img src="assets/img/793.jpg" class="rounded mx-auto d-block img-fluid"/>
+
+<div id="contacts">
+
+    <h1>Oliver Meyer</h1>
+    <h2>Software Engineer</h2>
+    
+    <ul>
+        {% for item in site.data.contacts %}
+        {% if item.icon-prefix %}
+        {% assign prefix = item.icon-prefix %}
+        {% else %}
+        {% assign prefix = 'fab' %}
+        {% endif %}
+        <li><a href="{{item.link}}"><i class="{{prefix}} fa-{{item.icon}}"></i> {{ item.text }}</a></li>
+        {% endfor %}
+    </ul>
+    
+    <p id="edu1">
+        <strong>Wirtschaftsinformatiker</strong><br/>
+        Diplom<br/>
+        University of Regensburg    
+    </p>
+    
+    <p id="edu2">
+        <strong>EDV-Kaufmann</strong><br/>
+        IHK<br/>
+        EDV-Schule Plattling
+    </p>
+</div>

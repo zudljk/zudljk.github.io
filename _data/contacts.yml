@@ -1,8 +1,10 @@
 - name: Web
+  icon-prefix: fas
   icon: globe
   link: https://zudljk.github.io
   text: zudljk.github.io
 - name: EMail
+  icon-prefix: fas
   icon: envelope
   link: mailto:zudljk@email.de?subject=Your%20Website%20at%20github.io
   text: zudljk@email.de
