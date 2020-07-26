@@ -1,0 +1,38 @@
+---
+title: "Home"
+order: 1
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+    <head>
+        {% include head.html %}
+    </head>
+
+    <body>
+        <div class="billboard frame-colors text-center align-middle">
+            <a href="edu.html">
+                <img src="assets/img/793.jpg" class="m-4 rounded-circle" />
+            </a>
+        </div>
+        <div class="text-center content-colors">
+            <a href="edu.html">
+                <h3>Oliver Meyer</h3>
+                <h4>Software Developer</h4> 
+            </a>
+            <div class="d-inline-block pr-1 py-2 align-middle">
+                {% for item in site.data.contacts %}
+                {% if item.icon-prefix %}
+                {% assign prefix = item.icon-prefix %}
+                {% else %}
+                {% assign prefix = 'fab' %}
+                {% endif %}
+                <h4 class="d-inline-block mx-2">
+                    <a href="{{item.link}}"><i class="{{prefix}} fa-{{item.icon}}"></i></a>
+                </h4>
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+
+</html>
