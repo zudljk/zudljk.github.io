@@ -8,9 +8,29 @@
     background-color: white;
 }
 
+.content-colors a, .content-colors a.nav-link {
+    color: rgb(82, 83, 99)!important;
+}
+
+.content-colors a.nav-link {
+    text-transform: uppercase;    
+}
+
+.content-colors li.active a.nav-link {
+    font-weight: bold;
+}
+
+.content-colors h3, .content-colors li.active a.nav-link {
+    color: rgb(149, 38, 29)!important;
+}
+
 .frame-colors {
     background-color: rgb(82, 83, 99);
     color: lightgray;
+}
+
+.frame-colors a, a.nav-link {
+    color: lightgray!important;
 }
 
 .page {
@@ -30,15 +50,25 @@
 }
 
 #dynamic {
+    width: 100%;
     position: absolute;
     left: 0;
     margin-left: 10;
     display: table-cell;
 }
 
+
 @media only screen and (min-width: 992px) {
     #dynamic {
         margin-left: 330px;   
+        width: unset;
+    }
+}
+
+@media only screen and (min-width: 1330px) {
+    #dynamic {
+        max-width: 1000px;
+        width: 100%;
     }
 }
 
@@ -76,10 +106,9 @@
 
 #dynamic h3 {
     font-size: medium;
-    color: rgb(149, 38, 29);
 }
 
-#dynamic ul {
+#dynamic ul.keywords, #dynamic ul.tasks {
     padding-left: 0;
 }
 
@@ -88,6 +117,7 @@
     padding-top: 0.5em;
     margin-bottom: 0.5em;
     list-style: none;
+    max-width: 768px;
 }
 
 #dynamic .keywords li {
@@ -109,7 +139,7 @@
     padding: 1em;
 }
 
-#dynamic a {
+#dynamic a.expand-detail {
     font-size: small;
 }
 
@@ -120,14 +150,47 @@
 img.thumb {
     border-radius: 50%;
     width: 55px;
-    margin: 5px;
-    margin-right: 15px; 
+    margin: 2px 2px;
+}
+
+#smallcontacts {
+    display: inline-block;
 }
 
 #smallcontacts a {
     font-size: large;
     display: inline-block;
-    width: 2rem;
+    width:1.2em;
     text-decoration: none;
     color: lightgray;
+}
+
+@media only screen and (min-width: 465px) {
+    #smallcontacts a {
+        font-size: x-large;
+        width: 2rem;
+    }
+}
+
+.fullsize {
+    width: 100%;
+}
+
+nav.navbar {
+    padding: 0;
+}
+
+nav.navbar button {
+    margin-top: 0.5em;
+    margin-right: 0;
+}
+
+@media only screen and (min-width: 992px) {
+    nav.navbar {
+        padding: 1rem 1.5rem;        
+    }
+}
+
+#navbar {
+    border-bottom: 1px solid rgb(82, 83, 99);
 }

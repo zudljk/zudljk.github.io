@@ -8,9 +8,9 @@ order: 3
     {% for item in data %}
     <div class="card bg-light">
 
-        <div class="row">
-            <div class="col-md-2 order-md-2 pb-1">{{ item.start }}{% if item.end %} · {% endif %}{{ item.end }}</div>
-            <div class="col-md-10">
+        <div class="row mr-0">
+            <div class="col-md-2 order-md-2 pb-1 text-nowrap">{{ item.start }}{% if item.end %} · {% endif %}{{ item.end }}</div>
+            <div class="col-10">
                 <h3>{{ item.position }}</h3>
                 <div>{{ item.company }}{% if item.location %} · {% endif %}{{ item.location }}</div>
                 <ul class="keywords">
@@ -22,7 +22,7 @@ order: 3
         </div>
 
         <div class="" id="card-header-{{forloop.index}}">
-            <a data-toggle="collapse" role="button" aria-expanded="false" data-target="#detail-{{forloop.index}}"
+            <a class="expand-detail" data-toggle="collapse" role="button" aria-expanded="false" data-target="#detail-{{forloop.index}}"
                 aria-controls="detail-{{forloop.index}}">
                 Read more ...
             </a>

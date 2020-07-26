@@ -6,13 +6,13 @@ order: 2
 {% assign data = site.data.cv.education | sort: 'start' | reverse %}
 {% for item in data %}
 <div class="card bg-light">
-    <div class="row">
-        <div class="col-md-10">
+    <div class="row mr-0">
+        <div class="col-md-2 order-md-2 pb-1 text-nowrap">{{ item.start }} · {{ item.end }}</div>
+        <div class="col-10">
             <h3>{{ item.title }}</h3>
             <div>{{ item.institution }}</div>
             <em>{{ item.description }}</em>
         </div>
-        <div class="col-md-2 order-md-2 pb-1">{{ item.start }} · {{ item.end }}</div>
     </div>
 </div>
 {% endfor %}
