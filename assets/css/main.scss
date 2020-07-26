@@ -1,15 +1,28 @@
----
----
+--- 
+--- 
 
 @import "main";
 
-#static {
-    overflow: hidden;
-    background-color: rgb(82,83,99);
+.content-colors {
+    color: rgb(82, 83, 99);
+    background-color: white;
+}
+
+.frame-colors {
+    background-color: rgb(82, 83, 99);
     color: lightgray;
+}
+
+.page {
+    display: table;
+}
+
+#static {
+    display: table-cell;
+    overflow: hidden;
     height: 100%;
-    max-width: 330px;
-    min-width: 330px;
+    width: 330px;
+    left: 0;
 }
 
 #static #contacts {
@@ -17,9 +30,16 @@
 }
 
 #dynamic {
-    color: rgb(82,83,99);
-    background-color: white;
-    margin-left: 340px;
+    position: absolute;
+    left: 0;
+    margin-left: 10;
+    display: table-cell;
+}
+
+@media only screen and (min-width: 992px) {
+    #dynamic {
+        margin-left: 330px;   
+    }
 }
 
 #static h1 {
@@ -46,7 +66,7 @@
 }
 
 #static li i {
-    width: 1.2em;   
+    width: 1.2em;
 }
 
 #static li a {
@@ -56,14 +76,14 @@
 
 #dynamic h3 {
     font-size: medium;
-    color: rgb(149,38,29);
+    color: rgb(149, 38, 29);
 }
 
 #dynamic ul {
     padding-left: 0;
 }
 
-#dynamic ul.keywords {    
+#dynamic ul.keywords {
     font-size: small;
     padding-top: 0.5em;
     margin-bottom: 0.5em;
@@ -71,7 +91,7 @@
 }
 
 #dynamic .keywords li {
-    color: rgb(149,38,29);
+    color: rgb(149, 38, 29);
     display: inline;
 }
 
@@ -95,4 +115,19 @@
 
 #dynamic a[aria-expanded="true"] {
     display: none;
+}
+
+img.thumb {
+    border-radius: 50%;
+    width: 55px;
+    margin: 5px;
+    margin-right: 15px; 
+}
+
+#smallcontacts a {
+    font-size: large;
+    display: inline-block;
+    width: 2rem;
+    text-decoration: none;
+    color: lightgray;
 }

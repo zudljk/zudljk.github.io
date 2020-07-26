@@ -1,0 +1,13 @@
+<div id="smallcontacts">
+    <img src="assets/img/vignette.jpg" class="thumb"/>
+
+    {% for item in site.data.contacts %}
+    {% if item.icon-prefix %}
+    {% assign prefix = item.icon-prefix %}
+    {% else %}
+    {% assign prefix = 'fab' %}
+    {% endif %}
+    <a href="{{item.link}}"><i class="{{prefix}} fa-{{item.icon}}"></i></a>
+    {% endfor %}
+
+</div>

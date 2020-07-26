@@ -22,13 +22,18 @@
 
 <body>
   <div class="container-xl ml-0">
-    <div class="row">
-      <div class="col-1 px-4 py-4 position-fixed" id="static">
+    <div class="page">
+      <div class="d-none d-lg-block d-xl-block px-4 py-4 position-fixed frame-colors" id="static">
         {% include static.html %}
       </div>
-      <div class="col-11" id="dynamic">
+      <div class="px-0 content-colors" id="dynamic">
+        <div class="d-block d-lg-none d-xl-none frame-colors">
+          {% include smallcontacts.html %}
+        </div>
         {% include navbar.html %}
-        {{ content }}
+        <div class="px-3">
+          {{ content }}
+        </div>
       </div>
     </div>
   </div>
