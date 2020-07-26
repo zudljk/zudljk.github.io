@@ -5,20 +5,21 @@ order: 1
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
-    <head>
-        {% include head.html %}
-    </head>
+<head>
+    {% include head.html %}
+</head>
 
-    <body>
-        <div class="billboard frame-colors text-center align-middle">
+<body>
+    <div class="container-fluid p-0 m-0 flex-row">
+        <div class="frame-colors text-center align-middle">
             <a href="edu.html">
-                <img src="assets/img/793.jpg" class="m-4 rounded-circle" />
+                <img src="assets/img/793.jpg" class="m-4 rounded-circle img-fluid" />
             </a>
         </div>
         <div class="text-center content-colors">
             <a href="edu.html">
                 <h3>Oliver Meyer</h3>
-                <h4>Software Developer</h4> 
+                <h4>Software Developer</h4>
             </a>
             <div class="d-inline-block pr-1 py-2 align-middle">
                 {% for item in site.data.contacts %}
@@ -33,6 +34,7 @@ order: 1
                 {% endfor %}
             </div>
         </div>
-    </body>
+    </div>
+</body>
 
 </html>
