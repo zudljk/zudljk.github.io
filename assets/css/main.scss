@@ -41,12 +41,8 @@
     display: table-cell;
     overflow: hidden;
     height: 100%;
-    width: 330px;
+    width: 250px;
     left: 0;
-}
-
-#static #contacts {
-    margin-left: 15%;
 }
 
 #dynamic {
@@ -60,7 +56,7 @@
 
 @media only screen and (min-width: 992px) {
     #dynamic {
-        margin-left: 330px;   
+        margin-left: 250px;   
         width: unset;
     }
 }
@@ -73,14 +69,13 @@
 }
 
 #static h1 {
-    margin-top: 2rem;
-    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 #static h2 {
     font-size: 1rem;
-    font-weight: bold;
 }
 
 #static ul {
@@ -88,11 +83,12 @@
     font-size: small;
     padding-left: 0;
     line-height: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 #static p {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    font-size: small;
 }
 
 #static li i {
@@ -152,22 +148,15 @@ img.thumb {
     margin: 2px 2px;
 }
 
-#smallcontacts {
-    display: inline-block;
-}
-
-#smallcontacts a {
+a.smallcontacts {
     font-size: large;
-    display: inline-block;
-    width:1.2em;
     text-decoration: none;
     color: lightgray;
 }
 
 @media only screen and (min-width: 465px) {
-    #smallcontacts a {
+    a.smallcontacts {
         font-size: x-large;
-        width: 2rem;
     }
 }
 
@@ -179,11 +168,6 @@ nav.navbar {
     padding: 0;
 }
 
-nav.navbar button {
-    margin-top: 0.5em;
-    margin-right: 0;
-}
-
 @media only screen and (min-width: 992px) {
     nav.navbar {
         padding: 1rem 1.5rem;        
@@ -192,4 +176,34 @@ nav.navbar button {
 
 #navbar {
     border-bottom: 1px solid rgb(82, 83, 99);
+}
+
+.title-image {
+    max-width: 90%;
+}
+
+.progress-bar {
+    background-color: rgb(82, 83, 99);
+}
+
+.progress-bar.pg-light {
+    background-color: rgb(153, 153, 153);
+}
+
+div.active-skill {
+    width: 1em;
+    background-color: rgb(82, 83, 99);
+}
+
+div.passive-skill {
+    width: 1em;
+    background-color: rgb(153, 153, 153);
+}
+
+.legend {
+    font-size: smaller;
+}
+
+.progress-title {
+    flex: 0 0 180px!important;
 }

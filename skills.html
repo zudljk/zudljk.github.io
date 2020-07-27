@@ -1,0 +1,43 @@
+---
+layout: default
+title: Skills
+order: 4
+---
+
+<div class="ml-3">
+
+    {% for skillset in site.data.skillsets %}
+    <div class="card bg-light mb-3">
+        <h3 >{{ skillset.name }}</h3>
+        {% for skill in skillset.skills %}
+        <div class="row align-items-center">
+            <div class="col progress-title text-right">
+                {{ skill.name }}
+            </div>
+            <div class="col px-0 pb-1">
+                {% if skill.active %}
+                <div class="col progress px-0">
+                    <div class="progress-bar" role="progressbar" style="width: {{skill.active}}%;"></div>
+                </div>
+                <div class="col progress px-0">
+                    <div class="progress-bar pg-light" role="progressbar" style="width: {{skill.passive}}%;"></div>
+                </div>
+                {% else %}
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: {{skill.grade}}%;"></div>
+                </div>                
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+    <div class="row align-items-center legend my-2">
+        <div class="col text-right">
+            <div class="d-inline-block active-skill">&nbsp;</div> active
+        </div>
+        <div class="col">
+            <div class="d-inline-block passive-skill">&nbsp;</div> passive
+        </div>
+    </div>
+</div>

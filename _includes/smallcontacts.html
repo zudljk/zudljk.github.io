@@ -1,13 +1,10 @@
-<div id="smallcontacts" class="text-right align-middle text-nowrap">
-    <div class="d-inline-block pr-1 align-middle">
-        {% for item in site.data.contacts %}
-        {% if item.icon-prefix %}
-        {% assign prefix = item.icon-prefix %}
-        {% else %}
-        {% assign prefix = 'fab' %}
-        {% endif %}
-        <a href="{{item.link}}"><i class="{{prefix}} fa-{{item.icon}}"></i></a>
-        {% endfor %}
-    </div>
-    <a href="/"><img src="https://gravatar.com/avatar/6620b6fea5fdba5e767084a3db586d88.jpg?s=64" class="thumb rounded-circle"/></a>
-</div>
+{% for item in site.data.contacts %}
+{% if item.icon-prefix %}
+{% assign prefix = item.icon-prefix %}
+{% else %}
+{% assign prefix = 'fab' %}
+{% endif %}
+<a class="smallcontacts d-inline-block" href="{{item.link}}"><i class="{{prefix}} fa-{{item.icon}}"></i></a>
+{% endfor %}
+<a class="d-inline-block" href="/"><img src="https://gravatar.com/avatar/6620b6fea5fdba5e767084a3db586d88.jpg?s=64" class="thumb rounded-circle"/></a>
+

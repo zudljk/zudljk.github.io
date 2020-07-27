@@ -1,0 +1,95 @@
+- name: Programming languanges
+  skills: 
+    - name: Java
+      grade: 100
+    - name: SQL
+      grade: 90
+    - name: Unix Shell
+      grade: 90
+    - name: Groovy
+      grade: 90
+    - name: JavaScript
+      grade: 60
+    - name: Python
+      grade: 40
+    - name: C
+      grade: 20
+    - name: C++
+      grade: 20
+
+- name: Frameworks and Platforms
+  skills: 
+    - name: Linux
+      grade: 90
+    - name: macOS
+      grade: 90
+    - name: Spring / Spring Boot
+      grade: 80
+    - name: REST
+      grade: 80
+    - name: Apache Tomcat
+      grade: 80
+    - name: JPA
+      grade: 70
+    - name: JBoss
+      grade: 70
+    - name: SAP Cloud Platform
+      grade: 70
+    - name: Windows
+      grade: 70
+    - name: SAPUI5/ OpenUI5
+      grade: 60
+    - name: Grails
+      grade: 40
+    - name: EJB
+      grade: 30
+    - name: AWS
+      grade: 30
+    - name: Vue.js
+      grade: 20
+    - name: Angular
+      grade: 10
+
+- name: DevOps
+  skills: 
+    - name: Maven
+      grade: 90
+    - name: Jenkins CI
+      grade: 90
+    - name: Git
+      grade: 90
+    - name: BitBucket
+      grade: 90
+    - name: JIRA
+      grade: 80
+    - name: Docker
+      grade: 80
+    - name: Ansible
+      grade: 70
+    - name: Kubernetes
+      grade: 60
+    - name: Vagrant
+      grade: 50
+    - name: LDAP / AD
+      grade: 40
+
+- name: Languanges
+  skills:
+    - name: German
+      active: 100
+      passive: 100
+    - name: English
+      active: 95
+      passive: 100
+    - name: Spanish
+      active: 60
+      passive: 70
+    - name: French
+      active: 50
+      passive: 70
+    - name: Russian
+      active: 15
+      passive: 30
+    - name: Italian
+      active: 10
+      passive: 60
