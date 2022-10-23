@@ -168,9 +168,31 @@ experience:
       - OData
       - Test automation
     start: 2017
-    end: present
+    end: 2020
     tasks:
       - Developing add-ons for SAP CRM solutions using Spring (Boot) based on SAP Cloud Platform
       - Setting up and maintaining a CI/CD infrastructure based on Kubernetes, providing a development toolset to the team
       - Collaborating in permanent improvement of a quality-focused development process
+  - position: Senior Application Developer
+    company: Nagarro SE
+    location: Munich
+    keywords:
+      - Spring Boot
+      - SAP Cloud Platform
+      - SAP Sales Cloud
+      - CRM
+      - SAPUI5
+      - Kubernetes
+      - CI/CD
+      - Jenkins
+      - Clean Code
+      - Node.JS      
+      - Atlassian
+      - REST
+      - OData
+      - Test automation
+    start: 2020
+    end: present
+    tasks:
+      - continuation of previous position after takeover of maihiro Products GmbH by Nagarro SE
     
