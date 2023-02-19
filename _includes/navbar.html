@@ -10,7 +10,7 @@
         <ul class="navbar-nav ml-1">
         {% assign orderedPages = site.pages | sort: 'order' %}
         {% for pageItem in orderedPages %}
-            {% if pageItem.order %}
+            {% if pageItem.order and pageItem.nomenu != 'false'%}
                 {% if page.title == pageItem.title %}
                     {% assign active = 'active' %}
                 {% else %}
