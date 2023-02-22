@@ -6,7 +6,7 @@ Ich wollte unseren Gartenteich trocken legen, um die undichte Stelle zu reparier
 
 Ich: <me>Jetzt hat es mit dem Teich abdichten doch nicht mehr geklappt</me>
 
-Sie: <i>grantig)</i> <her>Ja, dann hättest du halt früher anfangen müssen!</her>
+Sie: <i>(grantig)</i> <her>Ja, dann hättest du halt früher anfangen müssen!</her>
 
 Ich: <me>Das ging ja nicht, bis letztes Wochenende war es ja noch eiskalt und der Teich gefroren.</me>
 
