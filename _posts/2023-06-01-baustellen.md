@@ -1,7 +1,7 @@
-—-
+---
 layout: blog
 title: Baustellen
-—-
+---
 
 Wie es scheint, ist ihre „neue Verliebtheit“ schon wieder ziemlich abgeflaut und wir sind wieder da, wo wir bis zum Ende letzten Jahres schon waren.
 
