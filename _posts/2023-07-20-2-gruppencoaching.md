@@ -1,3 +1,7 @@
+---
+title: Gruppencoaching 
+---
+
 Eigentlich wäre ich ja gerne wieder mal beim Gruppencoaching von Jenny dabei, aber irgendwie haut das nicht mehr hin. 
 
 Traditionell sind die Abende ab 20 Uhr dafür reserviert, zu zweit im Wohnzimmer zu sitzen, meistens beim Fernsehen. 
