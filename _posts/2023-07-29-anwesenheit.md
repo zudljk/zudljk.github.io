@@ -6,7 +6,7 @@ Was sie aber betrifft, ist die neue Anwesenheitsregelung: Jeder Kollege soll pro
 
 Diese Regelung ist für sie insbesondere deshalb ziemlich sinnlos, da sie - anders als die Kollegen in der Niederlassung in Stuttgart - mit den Kollegen hier an ihrem Standort keinerlei Berührungspunkte hat. Sie sind alle in anderen Abteilungen. Wenn sie jetzt ins Büro fährt, sitzt sie dort oft genug auch ganz allein. Was immer mit dieser Anwesenheitsregelung bezweckt werden soll, für sie werden am Ende nur zwei Dinge herauskommen: Mehr Stress und mehr Kosten.
 
-Sie ist leider sehr empfindlich gegenüber Stress - das wirkt sich bei ihr immer auch in körperlichen Beschwerden - Schwindel, Muskelverspannungen, Herzrasen und andere Beschwerden. Deshalb ist sie jetzt sehr beunruhigt, dass diese Regelung wirklich umgesetzt wird. Das ist zwar alles andere als sicher, weil sie auch noch bei einer ganzen Reihe anderer Kollegen auf massiven Gegenwind stößt, aber die Möglichkeit ist da und allein das setzt sie jetzt schon unter großen Stress.
+Sie ist leider sehr empfindlich gegenüber Stress - das wirkt sich bei ihr immer auch körperlich aus: Schwindel, Muskelverspannungen, Herzrasen und andere Beschwerden. Deshalb ist sie jetzt sehr beunruhigt, dass diese Regelung wirklich umgesetzt wird. Das ist zwar alles andere als sicher, weil sie auch noch bei einer ganzen Reihe anderer Kollegen auf massiven Gegenwind stößt, aber die Möglichkeit ist da und allein das setzt sie jetzt schon unter großen Stress.
 
 Sie konnte deshalb die letzten Nächte schon kaum schlafen und ist die ganze Zeit sehr unruhig und niedergeschlagen.
 

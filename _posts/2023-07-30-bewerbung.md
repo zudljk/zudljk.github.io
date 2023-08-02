@@ -6,7 +6,7 @@ Deshalb will sie so schnell wie möglich den Arbeitgeber wechseln, aber nach fas
 
 Ihr Besuch hatte aber noch 2 andere Auswirkungen:
 
-Zum Einen hat sie mit meiner Frau über Hormonstörungen gesprochen. Da sie von der Situation zwischen mir und meiner Frau weiß und auch schon vermutet, dass ihre dauerhafte Unlust auf Hormonprobleme zurückzuführen ist, wollte sie ihr dezent dazu raten, sich mal durchchecken zu lassen. Sie spricht aus Erfahrung, da sie selbst auch lange damit zu kämpfen hatte und immer noch hat.
+Zum Einen hat sie mit meiner Frau über Hormonstörungen gesprochen. Da sie von der Situation zwischen mir und meiner Frau weiß und auch schon vermutet, dass ihre dauerhafte Unlust auf Hormonprobleme zurückzuführen ist, wollte sie ihr dezent dazu raten, sich mal durchchecken zu lassen. Sie spricht aus Erfahrung, da sie selbst auch lange damit zu kämpfen hatte und immer noch hat (wobei es sich bei ihr aber ganz sicher nicht negativ auf die Lust auf Sex auswirkt).
 
 Das war jedoch nicht von Erfolg gekrönt. Meine Frau hat bestätigt, dass sie ebenfalls Hormonprobleme hat (und zwar schon seit der Pubertät), allerdings war sie schon mehrfach deshalb in Behandlung, die aber außer heftigen Nebenwirkungen nie etwas gebracht hat. Sie hat daher beschlossen, sich diesbezüglich nicht weiter behandeln zu lassen, solange es ihr gut geht und die Sache sie nicht weiter beeinträchtigt.
 

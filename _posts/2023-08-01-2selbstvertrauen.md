@@ -10,11 +10,11 @@ Wir kamen wieder auf das Thema Selbstvertrauen zu sprechen und woher man es sch�
 
 Das mag bei manchen so sein, ich kann jedoch bei mir davon nichts feststellen.
 
-Meine Kampfsportkarriere hat mit Judo angefangen, dann (europäisches) Bogenschießen, Kendo während der Universitätszeit, jetzt Iaido. An meinem nicht vorhandenen Selbstvertrauen hat das jedoch alles nichts geändert. Vielleicht weil ich dabei zwar sehr konsequent, aber nicht besonders erfolgreich war? Möglich.
+Meine Kampfsportkarriere hat mit Judo angefangen (mehrere Jahre), dann (europäisches) Bogenschießen (etwa 3 Jahre), Kendo während der Universitätszeit und etwas danach (6 Jahre), jetzt Iaido seit 7 Monaten. An meinem nicht vorhandenen Selbstvertrauen hat das jedoch alles nichts geändert. Vielleicht weil ich dabei zwar sehr konsequent, aber nicht besonders erfolgreich war? Möglich. Es baut nicht gerade auf, wenn man trotz konsequenten Trainings irgendwann auf einem Niveau stehen bleibt, während andere, die genauso trainieren, einfach davon ziehen, weil sie einfach die besseren Gene in Bezug auf Sportlichkeit haben.
 
 Mein Abitur habe ich mit "Sehr gut" abgeschlossen, ebenso die Berufsfachschule, auch in der Universität war ich erfolgreich. Hat mir das Selbstvertrauen verschafft? Mitnichten.
 
-In meinem Beruf verdiene ich nicht schlecht und bin unter meinen sehr geachtet. Ändert das etwas an meinem Selbstvertrauen? Nein.
+In meinem Beruf verdiene ich nicht schlecht und bin unter meinen Kollegen sehr geachtet. Ändert das etwas an meinem Selbstvertrauen? Nein.
 
 Eine Theorie ist, dass durch die jahrelange Erfahrung von Mobbing, Hass und Ausgrenzung während fast meiner ganzen Schulzeit mein Selbstvertrauen so nachhaltig zerstört wurde, dass es sich auch durch spätere Erfolge oder erfüllende Tätigkeiten nicht mehr wieder herstellen ließ. Das heißt, ich wäre deshalb so duckmäuserisch und uninteressant, weil ich während dieser Zeit gelernt habe, dass es besser ist, nichts zu tun, zu sagen oder zu sein, was irgendwie auffallen könnte, um niemandem eine Angriffsfläche für Spott oder Hass bieten zu können.
 
